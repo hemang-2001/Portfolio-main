@@ -4,10 +4,23 @@ import img1 from "../../assets/smartube.png";
 import img2 from "../../assets/ChefsCorner.png";
 import img3 from "../../assets/Hemang Bairwa PortFoilo.png";
 import img4 from "../../assets/open-Board.png";
+import img5 from "../../assets/smart-stays.png";
 import ProjectElement from "../../components/project-element/ProjectElement";
 const projectsArray = [
 
 
+{
+    id: "5",
+    image: img5,
+    heading: "Smart-stays: Hotel Booking",
+    description:
+      "Smart Stays is a sleek, responsive hotel booking frontend built with React and Tailwind CSS. It offers hotel search, booking management, and secure user authentication via Clerk. Designed for performance and ease of use, it’s perfect for users and developers seeking a modern booking interface.",
+    tech: ["React.js", "Prebuild UI", "Clerk", "Stripe"],
+    demo: "https://smart-stays.vercel.app",
+    source: "https://github.com/hemang-2001/Hotel-Booking",
+    change: true,
+  },
+  
   {
     id: "4",
     image: img4,
